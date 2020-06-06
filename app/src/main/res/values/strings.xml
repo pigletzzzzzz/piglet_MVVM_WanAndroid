@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">玩安卓</string>
+
+    <string name="tab_zstx" translatable="false">知识体系</string>
+    <string name="tab_gzh" translatable="false">公众号</string>
+    <string name="tab_xm" translatable="false">项目</string>
+    <string name="tab_my" translatable="false">我</string>
+
+    <string name="about" translatable="false">
+        这是我第二次使用玩安卓平台开放api开发，非常感谢玩安卓平台提供的帮助。
+        \n第一次开发的app是一次尝试，本身存在很多的问题，体验度较差。
+        \n此次开发使用了github中MVVMSmart开发框架，github地址https://github.com/wzqjava/MVVMSmart。
+        \n使用flexbox：com.google.android:flexbox:1.0.0
+        \nSmartRefreshLayout：com.scwang.smartrefresh:SmartRefreshLayout:1.1.0
+        \nRoundedimageview：com.makeramen:roundedimageview:2.3.0
+        \nFlycoTabLayout_Lib：com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2
+        \nXBanner：com.github.xiaohaibin:XBanner:1.6.1
+        \nPicasso:com.squareup.picasso:picasso:2.5.2
+        \nShapeLoadingView：com.github.zzz40500:android-shapeLoadingView:1.0.3.2
+        \n等等开源
+        \n本人联系方式：微信 pig9527let QQ 1149404439
+        \n欢迎各位能够联系我，给我指点交流。谢谢！
+    </string>
+</resources>

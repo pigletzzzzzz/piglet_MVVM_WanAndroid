@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:binding="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/sp_30"
+            android:layout_marginTop="@dimen/dp_30"
+            android:textStyle="bold"
+            android:text="崩溃了？？？？"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_20"
+            android:src="@mipmap/carsh"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_20"
+            android:gravity="center"
+            android:text="老哥，你可以点击查看日志，自己去解决吧！\n是你碰到的bug，凭啥我来解决？\n我可不会告诉你app说明中有我的联系方式！"/>
+
+        <TextView
+            android:id="@+id/see_log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_20"
+            android:layout_marginTop="@dimen/dp_20"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:text="查看日志"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_log"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_marginRight="@dimen/dp_10"
+                android:textColor="@color/text_normal_color"
+                android:textSize="@dimen/sp_15"
+                tools:text="" />
+
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/tv_restart"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginLeft="@dimen/dp_40"
+            android:layout_marginRight="@dimen/dp_40"
+            android:background="@drawable/carsh_bg"
+            android:layout_marginTop="@dimen/dp_20"
+            android:gravity="center"
+            android:text="重启应用"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_15" />
+
+        <TextView
+            android:id="@+id/tv_exit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_30"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:gravity="center"
+            android:text="关闭应用"
+            android:textColor="@color/text_normal_color"
+            android:textSize="@dimen/sp_15" />
+
+    </LinearLayout>
+
+</layout>

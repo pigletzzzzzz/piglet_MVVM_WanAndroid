@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">玩安卓</string>
+    <string name="customactivityoncrash_error_activity_close_app">Close App</string>
+    <string name="customactivityoncrash_error_activity_error_details">Error log</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Error message</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">shut down</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">Logs copied</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">Copy log</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Error details</string>
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">An unexpected error occurred.</string>
+    <string name="customactivityoncrash_error_activity_restart_app">Restart</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:binding="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.wzq.mvvmsmart.base.BaseViewModelMVVM" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            binding:contentInsetStart="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <com.flyco.tablayout.SlidingTabLayout
+                    android:id="@+id/tab_spl"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_35"
+                    android:background="@color/transparent"
+                    android:layout_marginTop="@dimen/dp_25"
+                    app:elevation="@dimen/dp_5"
+                    app:tl_indicator_width="0dp"
+                    app:tl_textAllCaps="false"
+                    app:tl_textBold="BOTH"
+                    app:tl_textSelectColor="@color/text_surface"
+                    app:tl_textUnselectColor="@color/text_normal_color"
+                    app:tl_textsize="@dimen/sp_16"
+                    />
+
+                <View
+                    style="@style/ViewLineStyle"
+                    android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</layout>

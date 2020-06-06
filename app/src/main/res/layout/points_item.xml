@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_coin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tv_coin_count"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/sp_18"
+            android:textStyle="bold"
+            android:text="+"
+            tools:text="+" />
+
+        <TextView
+            android:id="@+id/tv_coin_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/sp_18"
+            android:textStyle="bold"
+            android:text=""
+            tools:text="31" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:lineSpacingExtra="0dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/text_second"
+            android:textSize="@dimen/sp_15"
+            android:text=""
+            tools:text="2020-03-01 14:19:26 签到 , 积分：10 + 2" />
+
+
+    </RelativeLayout>
+
+</layout>
